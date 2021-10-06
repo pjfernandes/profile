@@ -1,0 +1,99 @@
+/* TODO: design your profile with CSS */
+body {
+  background-color: rgb(169, 156, 156);
+  font-family: 'Noto Sans Display', sans-serif;
+}
+
+h1 {
+  color: red;
+  font-size: 25px;
+  text-align: center;
+}
+
+h2 {
+  color: red;
+  font-size: 20px;
+  text-align: center;
+}
+
+p {
+  color:black;
+  font-size: 13px;
+  text-align: center;
+}
+
+.btn-red {
+    background-color:red;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 4px;
+}
+
+a {
+  text-decoration: none;
+  background-color: red;
+  color :whitesmoke;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+a:hover {
+  background-color: black;
+}
+
+div {
+  background-color: white;
+  border-radius: 8px;
+  width: 650px;
+  margin: 20px auto;
+  padding: 30px;
+  text-align: center;
+
+}
+
+img {
+  border-radius: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+    font-size: 25px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 30px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
